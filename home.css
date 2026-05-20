@@ -1,0 +1,299 @@
+body {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav img {
+    width: 30px;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.one img {
+    width: 30px;
+}
+
+
+.one {
+    padding-bottom: 50px;
+
+}
+
+.two {
+    margin-right: 70vw;
+}
+
+.two p {
+    color: black;
+    margin-left: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h2 {
+    color: rgb(230, 23, 58);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.prgrph {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.hero-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 50%;
+    height: 50vh;
+    margin: 20px 50px;
+    align-content: center;
+}
+
+.right {
+    width: 50%;
+    height: 50vh;
+    margin: 20px 50px;
+    text-align: right;
+}
+
+.right img {
+    width: 300px;
+}
+
+.search-bar {
+    position: relative;
+    width: 300px;
+}
+
+.search-bar img {
+    margin-left: 30px;
+    width: 20px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-bar input {
+    width: 90vw;
+    margin-left: 30px;
+    padding: 20px 10px 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sec-1 {
+    display: flex;
+    border-radius: 10px;
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: rgb(255, 12, 126);
+}
+
+.left-1 {
+    width: 50%;
+    height: 400px;
+}
+
+h3 {
+    padding-top: 36vh;
+    margin-left: 30px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+
+    margin-left: 30px;
+    color: white;
+    font-size: 25px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.right-2 {
+    width: 50%;
+    height: 50vh;
+    margin: 20px 50px;
+    text-align: center;
+    align-content: center;
+}
+
+.right-2 img {
+    width: 400px;
+}
+
+.div-1 {
+    border: 1px solid black;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    background-color: rgb(230, 174, 91);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-1 {
+    display: flex;
+}
+
+.card-1 {
+    border: 1px solid black;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgb(255, 154, 66);
+    border: none;
+    height: 120vh;
+}
+
+.card-1 img {
+    width: 500px;
+    padding-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px
+}
+
+.heading-1 {
+    padding-top: 20vh;
+    margin-left: 30px;
+}
+
+.prgrph-2 {
+    color: black;
+}
+
+.parent-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    height: 60vh;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(252, 119, 141);
+}
+
+.card-2 img {
+    width: 200px;
+    margin-left: 65vh;
+}
+
+.heading-2 {
+    width: 25%;
+    margin-left: 30px;
+}
+
+.prgrph-3 {
+    color: black;
+}
+
+.card-3 {
+    width: 97%;
+    height: 50vh;
+    margin-left: 30px;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: rgb(142, 202, 223);
+}
+
+.card-3 img {
+    margin-left: 60vh;
+    width: 200px;
+}
+
+.heading-3 {
+    /* padding-top: 30vh; */
+    margin-left: 30px;
+}
+
+.prgrph-4 {
+    color: black;
+}
+
+.heading-4 {
+    margin: 30px;
+}
+
+.child-1 {
+    width: 50%;
+    margin: 30px;
+}
+
+.child-1 img {
+    width: 800px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child-2 {
+    width: 30%;
+    margin: 30px;
+}
+
+.child-2 img {
+    width: 400px;
+    height: 400px;
+}
+
+span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: gray;
+}
+
+b {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}

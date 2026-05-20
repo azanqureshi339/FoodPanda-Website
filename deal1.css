@@ -1,0 +1,225 @@
+body {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero {
+    background: url(./assets/Rectangle\ 19.png);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero a {
+    width: 40px;
+    height: 40px;
+    margin: 50px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c23c7f;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero a :hover {
+    color: black;
+}
+.sec-1{
+    box-shadow: 0px 2px 0px gray;
+    
+}
+
+.sec-1 div>h1 {
+    width: 40%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec-1 p {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 30%;
+
+}
+
+.div-1 {
+    margin: 30px;
+    height: 20vh;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.btn button {
+    border: none;
+    border-radius: 16px;
+    padding: 6px 14px;
+    margin: 30px;
+    background-color: lightblue;
+}
+
+.two {
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 30px;
+    width: 10%;
+
+}
+
+.radio-btn-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.p {
+    color: gray;
+}
+
+.radio-btn-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.radio-btn-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.radio-btn-4 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+input[type="radio"] {
+    transform: scale(2);
+    accent-color: rgb(247, 92, 118);
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 16vh;
+}
+
+
+
+.negative {
+    width: 70px;
+    height: 70px;
+    margin: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(194, 194, 194);
+    cursor: pointer;
+
+}
+
+.negative:hover {
+    background-color: gray;
+
+}
+
+.negative:active {
+    background-color: rgb(160, 160, 160);
+}
+
+i {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.num {
+    width: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.possitive {
+    width: 70px;
+    height: 70px;
+    margin: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(192, 7, 53);
+    cursor: pointer;
+
+}
+
+.possitive:hover {
+    background-color: rgb(219, 57, 84);
+}
+
+.possitive:active {
+    background-color: rgb(204, 25, 55);
+}
+
+.butn button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding: 16px 80px;
+    border-radius: 20px;
+    background-color: rgb(192, 7, 53);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.butn button:hover {
+    background-color: rgb(141, 4, 38);
+}
+
+.butn button:active {
+    background-color: rgb(243, 6, 65);
+
+
+}

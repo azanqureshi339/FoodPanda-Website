@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>FoodPanda</title>
+    <link rel="stylesheet" href="cart.css">
+    <style>
+        html {
+            box-sizing: border-box
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit
+        }
+    </style>
+</head>
+
+<body>
+    <header class="topbar">
+        <button class="close">✕</button>
+        <h1>Cart</h1>
+    </header>
+    <main class="wrap">
+        <section class="estimate">
+            <div class="scooter">🚲</div>
+            <div>
+                <div class="est-label">Estimated delivery</div>
+                <div class="est-time">Now <span>(25 min)</span></div>
+            </div>
+        </section>
+
+        <section class="item">
+            <div class="qty">1</div>
+            <div class="item-info">
+                <div class="item-title">Exclusive Subway Deal 1</div>
+                <div class="item-sub">Chicken Teriyaki, Mirinda...</div>
+            </div>
+            <div class="item-price">Rs.560.00</div>
+        </section>
+
+        <section class="summary">
+            <div class="row">
+                <div>Subtotal</div>
+                <div>Rs.560.00</div>
+            </div>
+            <div class="row small">
+                <div>Discount</div>
+                <div class="discount">-Rs.227.00</div>
+            </div>
+            <div class="row">
+                <div>Delivery fee</div>
+                <div>Rs.60.00</div>
+            </div>
+            <div class="row">
+                <div>VAT</div>
+                <div>Rs.89.00</div>
+            </div>
+        </section>
+
+        <a class="voucher" href="#">🏷️ Apply a voucher</a>
+    </main>
+
+    <footer class="bottom">
+        <div class="total">
+            <div>Total</div>
+            <div class="price">Rs.482.60</div>
+        </div>
+        <button class="place">Place order</button>
+    </footer>
+</body>
+
+</html>
